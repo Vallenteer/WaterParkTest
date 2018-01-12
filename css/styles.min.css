@@ -1138,7 +1138,8 @@ p.career__description {
     }
     .tagline-helper {
         font-size: 1.2em;
-        margin-top: 5px
+        margin-top: 5px;
+		color: #000000
     }
     .container {
         padding: 0 30px
