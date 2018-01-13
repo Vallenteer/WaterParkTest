@@ -67,8 +67,8 @@ body {
     margin: 0 15px
 }
 .main-navigation__item.active .main-navigation__link {
-    border-bottom: 3px solid #c30d27;
-    color: #c30d27
+    border-bottom: 3px solid #8aa4f5;
+    color: #8aa4f5
 }
 .main-navigation__link:focus,
 .main-navigation__link:active,
@@ -173,7 +173,7 @@ header {
 
 389
 
-    border-top: 2px solid #c30d27;
+    border-top: 2px solid #8aa4f5;
 
 390
 
@@ -283,7 +283,7 @@ header {
         display: none
     }
     .not-home .header-logo-container {
-        background-color: #c30d27;
+        background-color: #8aa4f5;
         background-image: url(../images/logo-white.png);
         background-size: 45px;
         background-repeat: no-repeat;
@@ -524,7 +524,7 @@ body {
 }
 .list-services-item__border {
     margin: 15px 0;
-    border-top: 2px solid #c30d27;
+    border-top: 2px solid #8aa4f5;
     width: 20%;
     -webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
@@ -590,7 +590,7 @@ body {
 }
 .quotes-border {
     margin: 15px 0;
-    border-top: 2px solid #c30d27;
+    border-top: 2px solid #8aa4f5;
     width: 20%;
     -webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
@@ -626,7 +626,7 @@ body {
     letter-spacing: 1px
 }
 #clientFilter li span.active {
-    background: #c30d27;
+    background: #8aa4f5;
     color: #fff
 }
 #clientList {
@@ -707,7 +707,7 @@ body {
     display: none
 }
 .contact-info-label {
-    color: #c30d27;
+    color: #8aa4f5;
     font-weight: 800
 }
 .award-list-item--gold {
@@ -744,7 +744,7 @@ input:focus {
     width: 100%;
     padding: 8px;
     margin-top: 15px;
-    background-color: #c30d27;
+    background-color: #8aa4f5;
     color: #fff;
     border: none;
     font-weight: 600;
@@ -782,7 +782,7 @@ input:focus {
     -webkit-box-shadow: 0 0 24px -3px rgba(0, 0, 0, .31);
     -moz-box-shadow: 0 0 24px -3px rgba(0, 0, 0, .31);
     box-shadow: 0 0 24px -3px rgba(0, 0, 0, .31);
-    border-bottom: 5px solid #c30d27;
+    border-bottom: 5px solid #8aa4f5;
     height: 399px
 }
 .career__icon {
@@ -1033,7 +1033,7 @@ p.career__description {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #c30d27;
+    background-color: #8aa4f5;
     line-height: 0!important;
     display: none
 }
@@ -1319,7 +1319,7 @@ p.career__description {
     #clientFilter li span.active {
         background: transparent;
         color: inherit;
-        border-bottom: 2px solid #c30d27;
+        border-bottom: 2px solid #8aa4f5;
         font-weight: 800;
         margin-bottom: 10px
     }
