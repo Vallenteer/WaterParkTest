@@ -464,7 +464,7 @@ body {
     z-index: 0
 }
 .services-section-right-bacground-color {
-    background-color: rgba(255, 3, 18, .52);
+    background-color: rgba(0, 151, 240, .52);
     position: absolute;
     top: 0;
     left: 50%;
@@ -473,7 +473,7 @@ body {
     z-index: 0
 }
 .services-section-2-left-bacground-color {
-    background-color: rgba(255, 3, 18, .52);
+    background-color: rgba(0, 151, 240, .52);
     position: absolute;
     top: 0;
     left: 0;
@@ -754,7 +754,7 @@ input:focus {
     transition: all 500ms ease-out
 }
 .submit-message-button:hover {
-    background-color: #730817
+    background-color: #000066
 }
 .copy-right-text {
     margin-top: 38px;
@@ -975,7 +975,7 @@ p.career__description {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #c4262c;
+    background-color: #3366ff;
     z-index: 999
 }
 .loader-container.finished {
