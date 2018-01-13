@@ -45,8 +45,8 @@
                 <ul id="menu" class="main-navigation">
                     <li data-menuanchor="home" class="active main-navigation__item hide"><a class="main-navigation__link" href="#home">Home</a></li>
                     <li data-menuanchor="about" class="main-navigation__item"><a class="main-navigation__link" href="#about">About</a></li>
-                    <li data-menuanchor="services" class="main-navigation__item"><a class="main-navigation__link" href="#products">Products</a></li>
-                    <li data-menuanchor="career" class="main-navigation__item"><a class="main-navigation__link" href="#pricing">Pricing</a></li>
+                    <li data-menuanchor="products" class="main-navigation__item"><a class="main-navigation__link" href="#products">Products</a></li>
+                    <li data-menuanchor="pricing" class="main-navigation__item"><a class="main-navigation__link" href="#pricing">Pricing</a></li>
                     <li data-menuanchor="contact" class="main-navigation__item"><a class="main-navigation__link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -190,8 +190,6 @@
                                     <li data-target="#portfolio-carousel" data-slide-to="1"></li>
                                     <li data-target="#portfolio-carousel" data-slide-to="2"></li>
                                     <li data-target="#portfolio-carousel" data-slide-to="3"></li>
-                                    <li data-target="#portfolio-carousel" data-slide-to="4"></li>
-                                    <li data-target="#portfolio-carousel" data-slide-to="5"></li>
                                 </ol>
 
                                 <!-- Wrapper for slides -->
@@ -219,15 +217,6 @@
                                         <div class="carousel-caption">
                                             Pendataan Keluarga BKKBN
                                         </div>
-                                    </div>
-                                    <div class="item portfolio-carousel__item" style="background-image:url('images/portfolio/edelweisz.jpg')">
-                                        <img src="images/portfolio/edelweisz.jpg" alt="Edelweisz" class="portfolio-carousel__image" />
-                                        <div class="carousel-caption">
-                                            Edelweisz
-                                        </div>
-                                    </div>
-                                    <div class="item portfolio-carousel__item">
-                                        <p class="portfolio-carousel__many-more">And many more, just contact us</p>
                                     </div>
                                 </div>
 
@@ -431,7 +420,7 @@
             filterList.init();
 
             $('#fullpage').fullpage({
-                anchors: ['home', 'about', 'services', 'clients', 'career', 'contact'],
+                anchors: ['home', 'about', 'products', 'pricing', 'contact'],
                 menu: '#menu',
                 continuousHorizontal: true,
                 responsiveWidth: 767,
